@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Adrián Ibáñez | FullStack Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>ADRIAN IBAÑEZ ROSA</h1>
+      <ul class="navegacion">
+        <li><a href="#mas-sobre" class="nav-link">Acerca de Mí</a></li>
+        <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <button class="menu-hamburguesa" id="menu-hamburguesa">
+        <ion-icon class="barras" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="https://res.cloudinary.com/dzhdt0frs/image/upload/v1726504993/techny-mobile-app-development-and-web-development_x8jdbi.png"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-titulo">Sobre Mí</h2>
+        <p class="bio-texto">
+          "¡Hola! Soy Adri, un joven de 27 años decidido a que la tecnología y
+          su futuro me acompañe y forme parte de mi trayectoria laboral.Busco
+          proyectos que me apasionen y en los que involucrarme profundamente.
+          Además también me gusta "programar" el código de mi vida, que pasa por
+          la práctica activa del deporte,disfrutar de mis amigos y viajar.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="mas-sobre" id="mas-sobre">
+      <h2>Más sobre mí</h2>
+      <p>
+        Durante mis estudios en Full Stack he adquirido habilidades en el
+        desarrollo tanto del front-end como del back-end, trabajando con
+        multitud de tecnologías.
+      </p>
+      <p>
+        Me entusiasma la oportunidad de aplicar mis conocimientos en proyectos
+        reales y seguir aprendiendo en el proceso, y siempre busco maneras de
+        mejorar mis habilidades y adaptarme a nuevas tecnologías.
+      </p>
+      <p>
+        Soy una persona motivada, con ganas de enfrentar desafíos y contribuir
+        al éxito de los proyectos. Estoy abierto a nuevas oportunidades y
+        dispuesto a trabajar en equipo para alcanzar objetivos comunes.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="habilidades" id="habilidades">
+      <h2 class="header-habilidad">Mis mejores habilidades</h2>
+
+      <div class="contenedor-habilidades">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-angular.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-github.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="third-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-nodejs.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-mongodb.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-mysql.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="proyectos" id="proyectos">
+      <h2 class="titulo-de-proyectos">Algunos de mis proyectos recientes</h2>
+      <div class="contenedor-de-proyectos">
+        <div class="tarjeta-de-proyecto">
+          <img
+            class="foto-de-proyecto"
+            src="https://res.cloudinary.com/dzhdt0frs/image/upload/v1725874782/BuildYourBody.png"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="titulo-de-proyectos">Build Your Body</h3>
+          <p class="detalle-de-proyectos">
+            Aplicación web para la creación de rutinas fitness, desarrollada en
+            Node.js y Angular. Permite a los usuarios registrados crear rutinas
+            personalizadas, buscar ejercicios por grupo muscular y acceder a
+            videos explicativos bajo login.
+          </p>
+          <a
+            href="https://res.cloudinary.com/dzhdt0frs/image/upload/v1725874782/BuildYourBody.png"
+            target="_blank"
+            class="enlace-de-proyecto"
+            >Echale un vistazo!</a
+          >
+        </div>
+        <div class="tarjeta-de-proyecto">
+          <img
+            class="foto-de-proyecto"
+            src="https://res.cloudinary.com/dzhdt0frs/image/upload/v1725876190/FuturamaCharacters_myhn3a.png"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="titulo-de-proyectos">Personajes Futurama</h3>
+          <p class="detalle-de-proyectos">
+            Aplicación web desarrollada en React que muestra personajes
+            obtenidos de una base de datos. Permite a los usuarios buscar
+            personajes fácilmente a través de una barra de búsqueda interactiva,
+            mejorando la experiencia de exploración.
+          </p>
+          <a
+            href="https://res.cloudinary.com/dzhdt0frs/image/upload/v1725876190/FuturamaCharacters_myhn3a.png"
+            target="_blank"
+            class="enlace-de-proyecto"
+            >Echale un vistazo!</a
+          >
+        </div>
+        <div class="tarjeta-de-proyecto">
+          <img
+            class="foto-de-proyecto"
+            src="https://res.cloudinary.com/dzhdt0frs/image/upload/v1725878558/CalderaRestaurante_r89vrm.png"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="titulo-de-proyectos">Caldera Restaurante</h3>
+          <p class="detalle-de-proyectos">
+            Diseñé una página web para un restaurante con HTML y CSS,
+            incorporando una interfaz intuitiva que incluye una sección de
+            reservas en línea y la integración con Google Maps para facilitar la
+            ubicación del local. Implementé animaciones y efectos visuales
+            sutiles.
+          </p>
+          <a
+            href="https://res.cloudinary.com/dzhdt0frs/image/upload/v1725878558/CalderaRestaurante_r89vrm.png"
+            target="_blank"
+            class="enlace-de-proyecto"
+            >Echale un vistazo!</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+
+    <section class="contacto" id="contacto">
+      <h2>Contáctame</h2>
+      <div class="formulario-contacto-contenedor">
+        <div class="formulario-contacto">
+          <form action="https://formspree.io/f/xoqgggrq" method="POST">
+            <div class="control-formulario">
+              <label for="name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Escribe tu nombre"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="control-formulario">
+              <label for="email">Correo Electrónico</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Ingreso tu correo electrónico"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="control-formulario">
+              <label for="mensaje">Mensaje</label>
+              <textarea
+                id="mensaje"
+                cols="60"
+                rows="10"
+                placeholder="Escribe tu mensaje"
+                name="mensaje"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Enviar"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="sociales">
+      <a
+        href="https://www.linkedin.com/in/adrian-iba%C3%B1ez-rosa/"
+        target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/adribanez" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2024</p>
+      <p>Adrián Ibáñez Rosa</p>
+    </footer>
+
+    <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="flecha-arriba"
+        alt="desplazarse-hacia-arriba"
+    /></i>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
