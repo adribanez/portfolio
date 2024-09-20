@@ -1,17 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
-
-
 html {
   scroll-behavior: smooth;
 }
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 ul {
@@ -127,19 +123,18 @@ nav ul li {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  padding: 0 1rem;
 }
 
 .header-habilidades {
   margin-bottom: 1rem;
 }
 
-.contenedor-habilidad img {
-  padding: 1.25rem;
-}
-
-.icon {
-  width: 11.875rem;
-  height: 11.25rem;
+.contenedor-habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .icon-card {
@@ -148,6 +143,12 @@ nav ul li {
   box-shadow: 0 3px 10px #a17a69;
   padding: 20px;
   margin: 10px;
+  width: 150px;
+}
+
+.titulo-de-proyectos {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .proyectos {
@@ -156,23 +157,12 @@ nav ul li {
   margin-top: 2rem;
 }
 
-.foto-de-proyecto {
-  width: 65%;
-  height: 60%;
-}
-
 .contenedor-de-proyectos {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
   padding: 1rem;
   text-align: center;
-  height: 21.875rem;
-
-}
-
-.contenedor-de-proyecto p {
-  padding: 0.4rem;
 }
 
 .tarjeta-de-proyecto {
@@ -181,20 +171,12 @@ nav ul li {
   box-shadow: 0 3px 10px #8b8eaf;
   padding: 20px;
   margin: 10px;
+  width: 300px;
 }
 
-.titulo-de-proyectos {
-  text-align: center;
-  margin-bottom: 1rem;
-
-}
-
-.titulo-de-proyecto {
-  margin-bottom: 0.5rem;
-}
-
-.detalles-de-proyecto {
-  margin-bottom: 0.5rem;
+.foto-de-proyecto {
+  width: 100%;
+  height: auto;
 }
 
 .contacto {
@@ -230,7 +212,6 @@ nav ul li {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
-  border: none;
   border: 2px outset #4756df;
   font-size: 0.875rem;
   outline: none;
@@ -266,8 +247,6 @@ nav ul li {
   right: 1%;
   bottom: 50%;
 }
-
-
 
 .socicon {
   width: 2rem;
@@ -327,13 +306,12 @@ footer {
     margin-top: -4rem;
     flex-direction: column;
     gap: 0;
-
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
-
+    width: 100%;
+    max-width: 37.5rem;
+    height: auto;
   }
 
   .bio {
@@ -354,17 +332,22 @@ footer {
     text-align: justify;
   }
 
-  .icono {
-    width: 5.875rem;
-    height: 5.25rem;
-  }
-
-  .contenedor-proyectos {
+  .contenedor-habilidades {
     flex-direction: column;
+    align-items: center;
   }
 
-  .contenedor-proyecto {
-    width: 20.875rem;
+  .icon-card {
+    width: 90%;
+  }
+
+  .contenedor-de-proyectos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta-de-proyecto {
+    width: 90%;
   }
 
   .formulario-contacto-contenedor {
@@ -382,11 +365,15 @@ footer {
     width: 18.3rem;
   }
 
+  .contenedor-de-proyectos {
+    flex-direction: column;
+  }
+
   .contenedor-proyecto {
     width: 17.875rem;
   }
 
-  .contenedor-formulario-de-contacto {
+  .formulario-contacto-contenedor {
     max-width: 17.75rem;
   }
 }
